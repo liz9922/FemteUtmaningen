@@ -11,8 +11,8 @@ public class Main {
         ArrayList<Vehicle> vehicles = new ArrayList<>();
 
         vehicles.add(new Car("BMW", "M5", 220, 2015, 5));
-        vehicles.add(new Truck("Scania", "340", 120, 2015, 4));
-        vehicles.add(new Motorcycle("Yamaha", "Maisto", 250, 2020, true));
+        vehicles.add(new Truck("Scania", "340", 100, 2009, 4));
+        vehicles.add(new Motorcycle("Yamaha", "Maisto", 300, 2022, true));
 
         return vehicles;
     }
